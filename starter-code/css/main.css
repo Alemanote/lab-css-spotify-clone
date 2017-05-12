@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+
+}
+
+h1, body, html, main {
+  margin: 0;
+}
+
+.head {
+  width: 100%;
+
+}
+
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline;
+  text-align: center;
+}
+
+
+
+.mainpic {
+  background-image: url(landing.jpg);
+  background-size: cover;
+  height: 60vw;
+  width: 100vw;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 20%;
+  font-size: 45px;
+}
+.whats {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+  text-decoration: underline #00B172; 
+}
+
+p {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.goodies div {
+  display: table-cell;
+  height: 50px;
+  width: 1%;
+  text-align:center;
+  width: 30%;
+}
+
+.goodies b {
+  font-size: 26px;
+}
+
+
+.good1, .good2, .good3  {
+  width: 20%;
+  margin: 10px;
+  list-style-type: none;
+  width: 50px;
+}
+
+.subt {
+  color: #00B172;
+}
+
+
+.card {
+  background-color:  #00B172;
+}
+
+.card li{
+  list-style-type: none;
+}
+
+
+.icon p {
+  font-size: 20px;
+}
+
+.green {
+  background-color: #1EA758;
+  color: #fff;
+  height: 650px;
+  margin: 50px;
+  padding: 60px 90px;
+  position: relative;
+}
+
+
+/*.app {
+  float: right;
+  padding-top: 20px;
+  width: 350px;
+}
+
+.logo {
+  height: 120px;
+  left: 44%;
+  position: absolute;
+  top: 45%;
+  width: 120px;
+}
+
+
+.text {
+  float: left;
+  padding-right: 10%;
+  width: 52%;
+}
+*/
+.text h3 {
+  border-bottom: 4px solid #fff;
+  display: inline-block;
+  line-height: 60px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.text h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+/*.text p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 200px;
+}
+*/
+
+
+.text h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+}
